@@ -1,0 +1,64 @@
+* {
+    padding: 1%;
+    margin: 0%;
+}
+
+.head1 {
+    color: rgb(212, 0, 88);
+    text-align: center;
+    font-size: 250%;
+    text-shadow: 2px 3px 5px yellow;
+}
+
+.head2 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 500%;
+    text-shadow: 2px 3px 10px gold;
+}
+
+.forms {
+    font-size: 100%;
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(68, 40, 40);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: ruby-base;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(17, 17, 17);
+}
+
+.activa {
+    background-color: black;
+}
+
+.meeting {
+    text-align: center;
+    font-size: 200%;
+    color: rgb(241, 203, 203);
+    font-style: italic;
+}
+
+.wedding {
+    text-align: center;
+    font-size: 200%;
+    font-style: italic;
+}
