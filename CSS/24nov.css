@@ -1,0 +1,34 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.head {
+    text-align: center;
+    background-color: yellow;
+    text-shadow: 20px 3px 5px;
+}
+
+.seen {
+    background-color: honeydew;
+}
+
+#header,
+.heading {
+    border: 3px solid;
+    padding: 40px;
+    border-color: red;
+    color: black;
+}
+
+div {
+    width: 150px;
+    height: 100px;
+    background-color: green;
+    transition: width 1s;
+    transition-delay: 2ms;
+}
+
+div :hover {
+    width: 100%;
+}

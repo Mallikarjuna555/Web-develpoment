@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    background-color: yellow;
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: -20%;
+    text-align: center;
+    text-shadow: 2px 3px 5px blue;
+    text-transform: capitalize;
+}
+
+#table1,
+.tdtable1 {
+    border: 3px solid;
+    padding: 2%;
+    color: rgb(77, 110, 10);
+    border-color: red;
+    text-shadow: 2px 3px 5px;
+    margin-left: 20%;
+}
+
+div {
+    width: 150px;
+    height: 100px;
+    background-color: green;
+    transition: width 1s;
+    transition-delay: 2ms;
+}
+
+div:hover {
+    width: 100%;
+}
